@@ -86,7 +86,7 @@
     },
     data () {
       return {
-        tagList: [],
+        tagList: ['c', 'c++', 'python'],
         problemTableColumns: [
           {
             title: '#',
@@ -157,7 +157,7 @@
             }
           }
         ],
-        problemList: [],
+        problemList: [{title: 'a+b', difficulty: 'hard'}, {title: 'a+c'}, {title: 'a+d'}],
         limit: 20,
         total: 0,
         loadings: {
